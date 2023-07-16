@@ -1,0 +1,56 @@
+/* R E S E T S */
+html,body {
+    height: 100%;
+}
+
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .4)), url(/images/anton-maksimov-5642-su-MSzGw5V0ui8-unsplash.jpg);
+    background-color: rgba(29, 29, 80, 0.568);
+    background-size: cover;
+    background-position: center;
+}
+
+.element {
+    background-color: rgba(86, 86, 221, 0.5);
+    /* Replace the RGB values (86, 86, 221) and opacity value (0.5) with your desired values */
+}
+
+h3 {
+    text-align: center;
+    /* Aligns the text to the center */
+}
+
+/* TARGETS LINKS TO REMOVE UNDERLINE WITH IMPORTANT  */
+a {
+    text-decoration: none !important;
+}
+
+/* CSS CLASS style sheet */
+a.btn:hover {
+    /* Add your desired styles for the hover effect */
+    color: rgb(253, 193, 193);
+    font-weight: bold;
+    /* etc. */
+}
+
+/* F O O T E R SECTION  */
+footer {
+    background-color: #f8f8f8;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+p {
+    margin: 0;
+    font-size: 14px;
+    color: #999;
+}
