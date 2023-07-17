@@ -25,7 +25,7 @@ Dev Hack Hub is a comprehensive developer resource hub featuring insightful blog
 ## Usage
 
 1. Run the application: `npm start`
-2. Open your web browser and visit: `http://localhost:3000`
+2. Open your web browser and visit: `http://localhost:3333`
 
 ## Contributing
 
