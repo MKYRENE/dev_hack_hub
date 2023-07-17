@@ -12,7 +12,7 @@ function isAuthenticated(req, res, next) {
 
 
 // Add a post
-router.post('/Post', isAuthenticated, async (req, res) => {
+router.post('/post', isAuthenticated, async (req, res) => {
   await Post.create({
     text: req.body.text,
     userId: req.session.user_id
