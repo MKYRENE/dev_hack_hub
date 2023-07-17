@@ -6,7 +6,7 @@ body {
 
 /* B O D Y SECTION */
 body {
-    background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .4)), url(/images/anton-maksimov-5642-su-MSzGw5V0ui8-unsplash.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .4)), url(/);
     background-color: white;
     background-size: cover;
     background-position: center;
