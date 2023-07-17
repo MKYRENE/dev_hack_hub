@@ -1,56 +1,120 @@
 /* R E S E T S */
-html,body {
+html,
+body {
     height: 100%;
 }
 
+/* B O D Y SECTION */
 body {
     background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .4)), url(/images/anton-maksimov-5642-su-MSzGw5V0ui8-unsplash.jpg);
-    background-color: rgba(29, 29, 80, 0.568);
+    background-color: white;
     background-size: cover;
     background-position: center;
 }
 
-.element {
-    background-color: rgba(86, 86, 221, 0.5);
-    /* Replace the RGB values (86, 86, 221) and opacity value (0.5) with your desired values */
+/* P A R A G R A P H */
+p {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  color: #fff;
+}
+/* H E A D E R */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+  background-color: #333;
+}
+/* N A V */
+nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
 }
 
-h3 {
-    text-align: center;
-    /* Aligns the text to the center */
+nav p {
+  margin: 0 20px;
 }
 
-/* TARGETS LINKS TO REMOVE UNDERLINE WITH IMPORTANT  */
-a {
-    text-decoration: none !important;
+nav a {
+  text-decoration: none;
+  padding: 6px 10px;
+  color: #333;
+  border: 1px solid #333;
 }
 
-/* CSS CLASS style sheet */
-a.btn:hover {
-    /* Add your desired styles for the hover effect */
-    color: rgb(253, 193, 193);
-    font-weight: bold;
-    /* etc. */
+nav a:not(:last-child) {
+  margin-right: 15px;
+}
+
+nav a:hover, nav a.active {
+  background-color: #333;
+  color: #fff;
+}
+/*  F O R M */
+form {
+  width: 400px;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+
+form > * {
+  padding: 7px 10px;
+  margin: 3px 0;
+}
+
+form h1 {
+  text-align: center;
+  color: rgb(238, 34, 34);
+}
+
+/* L I S T  */
+ul li {
+  margin: 10px 0;
+}
+
+ul li p {
+  margin: 4px;
+}
+
+/* E L E M E N T S */
+h1, h2, h3 {
+  font-family: 'Share Tech Mono', monospace;
+  color: white;
+}
+h2 {
+  text-align: center;
 }
 
 /* F O O T E R SECTION  */
 footer {
-    background-color: #f8f8f8;
-    padding: 20px;
-    text-align: center;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 100%;
+  background-color: #f8f8f8;
+  padding: 20px;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
 }
 
-.container {
-    max-width: 960px;
-    margin: 0 auto;
+/* h1.logo {
+    font-family: 'Share Tech Mono', monospace;
+    color: white;
+} */
+
+
+nav a {
+  color: #fff;
 }
 
-p {
-    margin: 0;
-    font-size: 14px;
-    color: #999;
+nav a:hover, nav a.active {
+  background-color: #333;
+  color: #fff;
 }
+
+

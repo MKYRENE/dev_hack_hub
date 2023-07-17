@@ -1,0 +1,20 @@
+<h1>Dashboard</h1>
+
+<form action="/post" method="POST">
+  <input name="text" type="text" placeholder="Share your post">
+  <button>Submit</button>
+</form>
+
+<main class="posts">
+  {{#each posts}}
+    <div class="post">
+      <p>{{text}}</p>
+    </div>
+  {{/each}}
+</main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2023 Dev Hack Hub LLC. Site Git Hub @MKYRENE All rights reserved.</p>
+    </div>
+  </footer>

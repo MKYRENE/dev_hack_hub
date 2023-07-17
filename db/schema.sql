@@ -1,0 +1,2 @@
+DROP DATABASE IF EXISTS dev_hack_hub;
+CREATE DATABASE dev_hack_hub;
